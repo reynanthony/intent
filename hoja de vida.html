@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reynaldo´s Profile</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="https://pbs.twimg.com/profile_images/2435278656/image_200x200.jpg" alt="Reynaldo´s Photo Profile">
+            </td>
+            <td>
+                <h2>Reynaldo Anthony</h2>
+                <h5>Asesor Logistico y Despacho</h5>
+                <p>Encargado de programacion, logistitica y distribucion, en VVP Industrial</p>
+            </td>
+        </tr>
+    </table>
+    <form action="">
+        <input type="text" id="nombre" size="50" name="nombre">
+        <br>
+        <input type="radio" id="menos18" value="menos18" name="edad" />Menos de 18
+        <br>
+        <input type="radio" id="18a30" value="18a30" name="edad" />18 a 30
+        <br>
+        <input type="radio" id="31a50" value="31a50" name="edad" checked="checked" />31 a 50
+        <br>
+        <input type="radio" id="mas50" value="mas50" name="edad" />Más de 50
+        <br>
+        <textarea rows="10" cols="20" name="comentario"></textarea><br>
+        <select>
+        <option>Atlético de Madrid</option>
+        <option>Real Betis</option>
+        <option selected="selected">FC. Barcelona</option>
+        <option>Real Madrid</option>
+        <option>Zaragoza</option>
+      </select><br>
+        <select name="ciudad">
+        <optgroup label="Europa">
+          <option>Madrid</option>
+          <option>Londres</option>
+          <option>Paris</option>
+        </optgroup>
+        <optgroup label="Suramerica">
+          <option>Santiago</option>
+          <option>Sao Paulo</option>
+          <option>Lima</option>
+          <option>Bogota</option>
+        </optgroup>
+          <optgroup label="Africa">
+          <option>Casablanca</option>
+          <option>Ciudad del Cabo</option>
+        </optgroup>
+      </select>
+        <fieldset>
+            <legend>Introduzca sus datos personales</legend>
+            <label for="nombre">Nombre</label><input type="text" id="nombre" />
+            <label for="apellido">Apellido</label><input type="text" id="apellido" />
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>
